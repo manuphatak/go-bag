@@ -1,37 +1,44 @@
-@manuphatak/backpack
-====================
+# backpack-cli
 
 A quick CLI tool to help hotswap your machine by backing up your local setup.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@manuphatak/backpack.svg)](https://npmjs.org/package/@manuphatak/backpack)
-[![CircleCI](https://circleci.com/gh/manuphatak/backpack/tree/master.svg?style=shield)](https://circleci.com/gh/manuphatak/backpack/tree/master)
-[![Codecov](https://codecov.io/gh/manuphatak/backpack/branch/master/graph/badge.svg)](https://codecov.io/gh/manuphatak/backpack)
-[![Downloads/week](https://img.shields.io/npm/dw/@manuphatak/backpack.svg)](https://npmjs.org/package/@manuphatak/backpack)
-[![License](https://img.shields.io/npm/l/@manuphatak/backpack.svg)](https://github.com/manuphatak/backpack/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
+![build-test-release](https://github.com/github/docs/actions/workflows/build-test-release.yml/badge.svg)
+[![codecov](https://codecov.io/gh/manuphatak/backpack-cli/branch/main/graph/badge.svg?token=A9695I83UH)](https://codecov.io/gh/manuphatak/backpack-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
+[![License](https://img.shields.io/npm/l/backpack-cli.svg)](https://github.com/manuphatak/backpack-cli/blob/main/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
-$ npm install -g @manuphatak/backpack
+$ npm install -g backpack-cli
 $ backpack COMMAND
 running command...
 $ backpack (-v|--version|version)
-@manuphatak/backpack/0.0.0 darwin-x64 node-v14.15.4
+backpack-cli/0.0.0 darwin-x64 node-v14.15.4
 $ backpack --help [COMMAND]
 USAGE
   $ backpack COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`backpack hello [FILE]`](#backpack-hello-file)
-* [`backpack help [COMMAND]`](#backpack-help-command)
+
+- [`backpack hello [FILE]`](#backpack-hello-file)
+- [`backpack help [COMMAND]`](#backpack-help-command)
 
 ## `backpack hello [FILE]`
 
@@ -51,7 +58,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/manuphatak/backpack/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/manuphatak/backpack-cli/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `backpack help [COMMAND]`
 
@@ -69,4 +76,5 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
 <!-- commandsstop -->
