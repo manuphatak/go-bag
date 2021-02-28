@@ -2,7 +2,6 @@
 name: build-test-release
 on:
   push:
-    branches: [main]
     paths-ignore:
       - "**.md"
   pull_request:
@@ -31,6 +30,7 @@ jobs:
         run: |
           ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
           curl -s https://codecov.io/bash | bash
+          rm coverage.lcov
       - name: Release
         if: ${{ matrix.node-version }} == 14.x
         env:
