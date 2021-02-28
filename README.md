@@ -4,9 +4,9 @@ A quick CLI tool to help hotswap your machine by backing up your local setup.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
-[![Codecov](https://codecov.io/gh/manuphatak/backpack-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/manuphatak/backpack-cli)
+[![codecov](https://codecov.io/gh/manuphatak/backpack-cli/branch/main/graph/badge.svg?token=A9695I83UH)](https://codecov.io/gh/manuphatak/backpack-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
-[![License](https://img.shields.io/npm/l/backpack-cli.svg)](https://github.com/manuphatak/backpack-cli/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/backpack-cli.svg)](https://github.com/manuphatak/backpack-cli/blob/main/package.json)
 
 <!-- toc -->
 
