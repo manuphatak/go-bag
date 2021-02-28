@@ -1,5 +1,4 @@
-@manuphatak/backpack
-====================
+# @manuphatak/backpack
 
 A quick CLI tool to help hotswap your machine by backing up your local setup.
 
@@ -11,11 +10,15 @@ A quick CLI tool to help hotswap your machine by backing up your local setup.
 [![License](https://img.shields.io/npm/l/@manuphatak/backpack.svg)](https://github.com/manuphatak/backpack/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g @manuphatak/backpack
 $ backpack COMMAND
@@ -27,11 +30,15 @@ USAGE
   $ backpack COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`backpack hello [FILE]`](#backpack-hello-file)
-* [`backpack help [COMMAND]`](#backpack-help-command)
+
+- [`backpack hello [FILE]`](#backpack-hello-file)
+- [`backpack help [COMMAND]`](#backpack-help-command)
 
 ## `backpack hello [FILE]`
 
@@ -69,4 +76,5 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
 <!-- commandsstop -->
