@@ -32,14 +32,6 @@ jobs:
             git config user.name "Circle CI"
             if [ "$CIRCLE_JOB" = "node-latest" ]; then yarn release; fi
 
-  node-12:
-    <<: *test
-    docker:
-      - image: node:12
-  node-10:
-    <<: *test
-    docker:
-      - image: node:10
   cache:
     <<: *test
     steps:
