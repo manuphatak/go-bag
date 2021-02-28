@@ -5,12 +5,12 @@
   "author": "Manu Phatak @manuphatak",
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "manuphatak/backpack",
+  "repository": "manuphatak/backpack-cli",
   "types": "lib/index.d.ts",
   "bin": {
     "backpack": "./bin/run"
   },
-  "bugs": "https://github.com/manuphatak/backpack/issues",
+  "bugs": "https://github.com/manuphatak/backpack-cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -55,7 +55,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/manuphatak/backpack",
+  "homepage": "https://github.com/manuphatak/backpack-cli",
   "keywords": [
     "oclif"
   ],
