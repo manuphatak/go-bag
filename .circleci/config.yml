@@ -19,18 +19,6 @@ jobs:
       - run:
           name: Testing
           command: yarn test
-      - run:
-          name: Submitting code coverage to codecov
-          command: |
-            ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
-            curl -s https://codecov.io/bash | bash
-            coverage.lcov
-      - run:
-          name: Release
-          command: |
-            git config user.email "circleci@phatak.io"
-            git config user.name "Circle CI"
-            if [ "$CIRCLE_JOB" = "node-latest" ]; then yarn release; fi
 
   cache:
     <<: *test

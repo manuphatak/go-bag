@@ -23,11 +23,14 @@ jobs:
       - run: ./bin/run --version
       - run: ./bin/run --help
       - run: yarn test
-      - name: Submitting code coverage to codecov
-        run: |
-          ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
-          curl -s https://codecov.io/bash | bash
-          rm coverage.lcov
+      - run: yarn run nyc report --reporter text-lcov > coverage.lcov
+      - uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage.lcov
+          fail_ci_if_error: true
+          env_vars: ${{ matrix.node-version }}
+      - run: rm coverage.lcov
       - name: Release
         if: ${{ startsWith(matrix.node-version, '14' ) }}
         env:
