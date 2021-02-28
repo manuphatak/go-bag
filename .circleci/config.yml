@@ -24,6 +24,13 @@ jobs:
           command: |
             ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
             curl -s https://codecov.io/bash | bash
+      - run:
+          name: Release
+          command: |
+            git config user.email "circleci@phatak.io"
+            git config user.name "Circle CI"
+            if [ "$CIRCLE_JOB" = "node-latest" ]; then yarn release; fi
+
   node-12:
     <<: *test
     docker:
