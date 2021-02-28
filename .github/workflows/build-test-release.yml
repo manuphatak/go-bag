@@ -29,7 +29,7 @@ jobs:
           curl -s https://codecov.io/bash | bash
           rm coverage.lcov
       - name: Release
-        if: ${{ matrix.node-version }} == 14.x
+        if: ${{ startsWith(matrix.node-version, '14' ) }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
