@@ -24,6 +24,8 @@
     "@types/mocha": "^5",
     "@types/node": "^10",
     "chai": "^4",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
@@ -62,11 +64,16 @@
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme && prettier --write README.md",
     "test": "COLUMNS=80 nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && prettier --write README.md && git add README.md && git commit --allow-empty -m 'Update README.md [skip ci]'"
+    "version": "oclif-dev readme && prettier --write README.md && git add README.md && git commit --allow-empty -m 'chore: Update README.md [skip ci]'"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
