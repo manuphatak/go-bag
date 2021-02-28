@@ -1,5 +1,5 @@
 {
-  "name": "@manuphatak/backpack",
+  "name": "backpack-cli",
   "description": "A quick CLI tool to help hotswap your machine by backing up your local setup.",
   "version": "0.0.0",
   "author": "Manu Phatak @manuphatak",

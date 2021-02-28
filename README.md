@@ -1,4 +1,4 @@
-# @manuphatak/backpack
+# backpack-cli
 
 A quick CLI tool to help hotswap your machine by backing up your local setup.
 
@@ -20,11 +20,11 @@ A quick CLI tool to help hotswap your machine by backing up your local setup.
 <!-- usage -->
 
 ```sh-session
-$ npm install -g @manuphatak/backpack
+$ npm install -g backpack-cli
 $ backpack COMMAND
 running command...
 $ backpack (-v|--version|version)
-@manuphatak/backpack/0.0.0 darwin-x64 node-v14.15.4
+backpack-cli/0.0.0 darwin-x64 node-v14.15.4
 $ backpack --help [COMMAND]
 USAGE
   $ backpack COMMAND
