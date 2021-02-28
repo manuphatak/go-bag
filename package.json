@@ -18,6 +18,9 @@
     "tslib": "^1"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "10.16.8",
+    "@auto-it/conventional-commits": "10.16.8",
+    "@auto-it/first-time-contributor": "10.16.8",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
     "@oclif/dev-cli": "^1",
