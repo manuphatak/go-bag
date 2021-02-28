@@ -51,8 +51,6 @@ workflows:
   build-test-release:
     jobs:
       - node-latest
-      - node-12
-      - node-10
       - cache:
           filters:
             tags:
