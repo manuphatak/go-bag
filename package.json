@@ -25,6 +25,7 @@
     "@types/chai": "^4",
     "@types/mocha": "^5",
     "@types/node": "^10",
+    "auto": "10.16.8",
     "chai": "^4",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
@@ -70,11 +71,22 @@
     "version": "oclif-dev readme && prettier --write README.md && git add README.md && git commit --allow-empty -m 'chore: Update README.md [skip ci]'",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "release": "auto shipit"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "first-time-contributor",
+      "released"
+    ],
+    "author": "Auto <auto@phatak.io>"
   }
 }
