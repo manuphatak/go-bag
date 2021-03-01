@@ -11,6 +11,7 @@ A quick CLI tool to help hotswap your machine by backing up your local setup.
 
 <!-- toc -->
 
+- [backpack-cli](#backpack-cli)
 - [Usage](#usage)
 - [Commands](#commands)
 <!-- tocstop -->
@@ -24,7 +25,7 @@ $ npm install -g backpack-cli
 $ backpack COMMAND
 running command...
 $ backpack (-v|--version|version)
-backpack-cli/0.0.0 darwin-x64 node-v14.15.4
+backpack-cli/0.0.3 linux-x64 node-v14.15.5
 $ backpack --help [COMMAND]
 USAGE
   $ backpack COMMAND
@@ -58,7 +59,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/manuphatak/backpack-cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/manuphatak/backpack-cli/blob/v0.0.3/src/commands/hello.ts)_
 
 ## `backpack help [COMMAND]`
 
