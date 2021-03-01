@@ -1,7 +1,7 @@
 {
   "name": "backpack-cli",
   "description": "A quick CLI tool to help hotswap your machine by backing up your local setup.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Manu Phatak @manuphatak",
   "license": "MIT",
   "main": "lib/index.js",
