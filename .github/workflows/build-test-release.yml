@@ -46,6 +46,7 @@ jobs:
           fail_ci_if_error: true
           env_vars: ${{ matrix.node-version }}
           move_coverage_to_trash: true
+      - run: yarn lint
       - name: Release
         if: ${{ startsWith(matrix.node-version, '14' ) }}
         env:
