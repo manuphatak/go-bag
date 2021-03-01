@@ -69,7 +69,7 @@
   },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "lint": "eslint . --ext .ts",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme && prettier --write README.md",
     "test": "COLUMNS=80 nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && prettier --write README.md && git add README.md && git commit --allow-empty -m 'chore: Update README.md [skip ci]'",
