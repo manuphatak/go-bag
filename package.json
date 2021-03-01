@@ -39,7 +39,7 @@
     "eslint-config-prettier": "8.1.0",
     "globby": "11.0.2",
     "husky": "5.1.1",
-    "mocha": "5",
+    "mocha": "6",
     "nyc": "15.1.0",
     "pinst": "2.1.6",
     "prettier": "2.2.1",
