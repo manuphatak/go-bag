@@ -1,6 +1,6 @@
 # go-bag
 
-A quick CLI tool to help hotswap your machine by backing up your local setup.
+A CLI tool to take your computer setup on the road.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/go-bag.svg)](https://npmjs.org/package/go-bag)
