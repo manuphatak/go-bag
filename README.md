@@ -22,13 +22,13 @@ A CLI tool to take your computer setup on the road.
 
 ```sh-session
 $ npm install -g go-bag
-$ backpack COMMAND
+$ go-bag COMMAND
 running command...
-$ backpack (-v|--version|version)
-go-bag/0.0.5 darwin-x64 node-v14.15.4
-$ backpack --help [COMMAND]
+$ go-bag (-v|--version|version)
+go-bag/0.0.7 linux-x64 node-v14.16.0
+$ go-bag --help [COMMAND]
 USAGE
-  $ backpack COMMAND
+  $ go-bag COMMAND
 ...
 ```
 
@@ -38,16 +38,16 @@ USAGE
 
 <!-- commands -->
 
-- [`backpack hello [FILE]`](#backpack-hello-file)
-- [`backpack help [COMMAND]`](#backpack-help-command)
+- [`go-bag hello [FILE]`](#go-bag-hello-file)
+- [`go-bag help [COMMAND]`](#go-bag-help-command)
 
-## `backpack hello [FILE]`
+## `go-bag hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ backpack hello [FILE]
+  $ go-bag hello [FILE]
 
 OPTIONS
   -f, --force
@@ -55,19 +55,19 @@ OPTIONS
   -n, --name=name  name to print
 
 EXAMPLE
-  $ backpack hello
+  $ go-bag hello
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/manuphatak/go-bag/blob/v0.0.5/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/manuphatak/go-bag/blob/v0.0.7/src/commands/hello.ts)_
 
-## `backpack help [COMMAND]`
+## `go-bag help [COMMAND]`
 
-display help for backpack
+display help for go-bag
 
 ```
 USAGE
-  $ backpack help [COMMAND]
+  $ go-bag help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
