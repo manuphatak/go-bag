@@ -19,9 +19,9 @@
     "tslib": "2.1.0"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "10.16.8",
-    "@auto-it/conventional-commits": "10.16.8",
-    "@auto-it/first-time-contributor": "10.16.8",
+    "@auto-it/all-contributors": "10.18.3",
+    "@auto-it/conventional-commits": "10.18.3",
+    "@auto-it/first-time-contributor": "10.18.3",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
     "@oclif/dev-cli": "1.26.0",
@@ -30,7 +30,7 @@
     "@types/chai": "4.2.15",
     "@types/mocha": "8.2.1",
     "@types/node": "14.14.31",
-    "auto": "10.16.8",
+    "auto": "10.18.3",
     "chai": "4.3.3",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
@@ -39,14 +39,14 @@
     "eslint-config-oclif-typescript": "0.2.0",
     "eslint-config-prettier": "8.1.0",
     "globby": "11.0.2",
-    "husky": "5.1.1",
+    "husky": "5.1.3",
     "mocha": "8.3.1",
     "nyc": "15.1.0",
     "pinst": "2.1.6",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
     "ts-node": "9.1.1",
-    "typescript": "4.2.2"
+    "typescript": "4.2.3"
   },
   "engines": {
     "node": ">=8.0.0"
