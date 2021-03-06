@@ -25,7 +25,7 @@ $ npm install -g go-bag
 $ go-bag COMMAND
 running command...
 $ go-bag (-v|--version|version)
-go-bag/0.0.7 linux-x64 node-v14.16.0
+go-bag/0.0.7 darwin-x64 node-v14.16.0
 $ go-bag --help [COMMAND]
 USAGE
   $ go-bag COMMAND
@@ -38,8 +38,33 @@ USAGE
 
 <!-- commands -->
 
+- [`go-bag autocomplete [SHELL]`](#go-bag-autocomplete-shell)
 - [`go-bag hello [FILE]`](#go-bag-hello-file)
 - [`go-bag help [COMMAND]`](#go-bag-help-command)
+- [`go-bag setup [FILE]`](#go-bag-setup-file)
+
+## `go-bag autocomplete [SHELL]`
+
+display autocomplete installation instructions
+
+```
+USAGE
+  $ go-bag autocomplete [SHELL]
+
+ARGUMENTS
+  SHELL  shell type
+
+OPTIONS
+  -r, --refresh-cache  Refresh cache (ignores displaying instructions)
+
+EXAMPLES
+  $ go-bag autocomplete
+  $ go-bag autocomplete bash
+  $ go-bag autocomplete zsh
+  $ go-bag autocomplete --refresh-cache
+```
+
+_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v0.3.0/src/commands/autocomplete/index.ts)_
 
 ## `go-bag hello [FILE]`
 
@@ -77,5 +102,21 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `go-bag setup [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ go-bag setup [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/setup.ts](https://github.com/manuphatak/go-bag/blob/v0.0.7/src/commands/setup.ts)_
 
 <!-- commandsstop -->
