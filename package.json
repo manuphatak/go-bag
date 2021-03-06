@@ -1,16 +1,16 @@
 {
-  "name": "backpack-cli",
-  "description": "A quick CLI tool to help hotswap your machine by backing up your local setup.",
+  "name": "go-bag",
+  "description": "A CLI tool to take your computer setup on the road.",
   "version": "0.0.5",
   "author": "Manu Phatak @manuphatak",
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "manuphatak/backpack-cli",
+  "repository": "manuphatak/go-bag",
   "types": "lib/index.d.ts",
   "bin": {
-    "backpack": "./bin/run"
+    "go-bag": "./bin/run"
   },
-  "bugs": "https://github.com/manuphatak/backpack-cli/issues",
+  "bugs": "https://github.com/manuphatak/go-bag/issues",
   "dependencies": {
     "@oclif/command": "1",
     "@oclif/config": "1",
@@ -56,7 +56,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/manuphatak/backpack-cli",
+  "homepage": "https://github.com/manuphatak/go-bag",
   "keywords": [
     "oclif"
   ],
