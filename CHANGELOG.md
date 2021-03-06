@@ -1,3 +1,15 @@
+# v0.0.6 (Sat Mar 06 2021)
+
+#### 🐛 Bug Fix
+
+- fix: Update example [#6](https://github.com/manuphatak/go-bag/pull/6) ([@manuphatak](https://github.com/manuphatak))
+
+#### Authors: 1
+
+- Manu Phatak ([@manuphatak](https://github.com/manuphatak))
+
+---
+
 # v0.0.5 (Sun Feb 28 2021)
 
 :tada: This release contains work from a new contributor! :tada:
