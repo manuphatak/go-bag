@@ -1,17 +1,17 @@
-# backpack-cli
+# go-bag
 
 A quick CLI tool to help hotswap your machine by backing up your local setup.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
-[![build-test-release](https://github.com/manuphatak/backpack-cli/actions/workflows/build-test-release.yml/badge.svg)](https://github.com/manuphatak/backpack-cli/actions/workflows/build-test-release.yml)
-[![codecov](https://codecov.io/gh/manuphatak/backpack-cli/branch/main/graph/badge.svg?token=A9695I83UH)](https://codecov.io/gh/manuphatak/backpack-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/backpack-cli.svg)](https://npmjs.org/package/backpack-cli)
-[![License](https://img.shields.io/npm/l/backpack-cli.svg)](https://github.com/manuphatak/backpack-cli/blob/main/package.json)
+[![Version](https://img.shields.io/npm/v/go-bag.svg)](https://npmjs.org/package/go-bag)
+[![build-test-release](https://github.com/manuphatak/go-bag/actions/workflows/build-test-release.yml/badge.svg)](https://github.com/manuphatak/go-bag/actions/workflows/build-test-release.yml)
+[![codecov](https://codecov.io/gh/manuphatak/go-bag/branch/main/graph/badge.svg?token=A9695I83UH)](https://codecov.io/gh/manuphatak/go-bag)
+[![Downloads/week](https://img.shields.io/npm/dw/go-bag.svg)](https://npmjs.org/package/go-bag)
+[![License](https://img.shields.io/npm/l/go-bag.svg)](https://github.com/manuphatak/go-bag/blob/main/package.json)
 
 <!-- toc -->
 
-- [backpack-cli](#backpack-cli)
+- [go-bag](#go-bag)
 - [Usage](#usage)
 - [Commands](#commands)
 <!-- tocstop -->
@@ -21,11 +21,11 @@ A quick CLI tool to help hotswap your machine by backing up your local setup.
 <!-- usage -->
 
 ```sh-session
-$ npm install -g backpack-cli
+$ npm install -g go-bag
 $ backpack COMMAND
 running command...
 $ backpack (-v|--version|version)
-backpack-cli/0.0.5 darwin-x64 node-v14.15.4
+go-bag/0.0.5 darwin-x64 node-v14.15.4
 $ backpack --help [COMMAND]
 USAGE
   $ backpack COMMAND
@@ -59,7 +59,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/manuphatak/backpack-cli/blob/v0.0.5/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/manuphatak/go-bag/blob/v0.0.5/src/commands/hello.ts)_
 
 ## `backpack help [COMMAND]`
 
