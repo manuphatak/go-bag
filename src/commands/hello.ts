@@ -4,9 +4,10 @@ export default class Hello extends Command {
   static description = "describe the command here";
 
   static examples = [
-    `$ backpack hello
+    `
+$ go-bag hello
 hello world from ./src/hello.ts!
-`,
+`.trimLeft(),
   ];
 
   static flags = {

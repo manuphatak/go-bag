@@ -62,7 +62,7 @@
   ],
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "backpack",
+    "bin": "go-bag",
     "plugins": [
       "@oclif/plugin-help"
     ]
