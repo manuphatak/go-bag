@@ -6,7 +6,10 @@
     "declarationMap": true,
     "importHelpers": true,
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "."
   },
   "include": ["src/**/*"]
 }
