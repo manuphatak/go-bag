@@ -1,3 +1,15 @@
+# v0.1.0 (Sun Mar 07 2021)
+
+#### 🚀 Enhancement
+
+- feat: Create the setup and edit commands [#7](https://github.com/manuphatak/go-bag/pull/7) ([@manuphatak](https://github.com/manuphatak))
+
+#### Authors: 1
+
+- Manu Phatak ([@manuphatak](https://github.com/manuphatak))
+
+---
+
 # v0.0.7 (Sat Mar 06 2021)
 
 #### 🐛 Bug Fix
