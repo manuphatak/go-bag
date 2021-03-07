@@ -1,14 +1,10 @@
 import { Command, flags } from "@oclif/command";
-import * as childProcess from "child_process";
-import * as fs from "fs-extra";
+import { execSync } from "child_process";
 import * as path from "path";
-import * as util from "util";
 import { interpolate } from "../utils/interpolate";
 
-export const exec = util.promisify(childProcess.exec);
-
-export default class Setup extends Command {
-  static description = "setup your go-bag";
+export default class Edit extends Command {
+  static description = "edit your go-bag manifest";
 
   static flags = {
     help: flags.help({ char: "h" }),
@@ -23,13 +19,12 @@ export default class Setup extends Command {
   static args = [];
 
   async run() {
-    const { flags } = this.parse(Setup);
+    const { flags } = this.parse(Edit);
 
     const dir = await interpolate(flags.dir);
 
     const manifest = path.join(dir, ".manifest");
-    await fs.ensureFile(manifest);
 
-    this.log(`created ${manifest}`);
+    execSync(`\${EDITOR:-vi} ${manifest}`, { stdio: "inherit" });
   }
 }

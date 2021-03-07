@@ -9,7 +9,7 @@
     "rootDir": "src",
     "composite": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./"
+    "baseUrl": "."
   },
   "include": ["src/**/*"]
 }
