@@ -25,7 +25,7 @@ $ npm install -g go-bag
 $ go-bag COMMAND
 running command...
 $ go-bag (-v|--version|version)
-go-bag/0.0.7 darwin-x64 node-v14.16.0
+go-bag/0.1.0 linux-x64 node-v14.16.0
 $ go-bag --help [COMMAND]
 USAGE
   $ go-bag COMMAND
@@ -39,7 +39,7 @@ USAGE
 <!-- commands -->
 
 - [`go-bag autocomplete [SHELL]`](#go-bag-autocomplete-shell)
-- [`go-bag edit [FILE]`](#go-bag-edit-file)
+- [`go-bag edit`](#go-bag-edit)
 - [`go-bag help [COMMAND]`](#go-bag-help-command)
 - [`go-bag setup`](#go-bag-setup)
 
@@ -66,21 +66,20 @@ EXAMPLES
 
 _See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v0.3.0/src/commands/autocomplete/index.ts)_
 
-## `go-bag edit [FILE]`
+## `go-bag edit`
 
-describe the command here
+edit your go-bag manifest
 
 ```
 USAGE
-  $ go-bag edit [FILE]
+  $ go-bag edit
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -d, --dir=dir  [default: ~/.go-bag] directory for go-bag
+  -h, --help     show CLI help
 ```
 
-_See code: [src/commands/edit.ts](https://github.com/manuphatak/go-bag/blob/v0.0.7/src/commands/edit.ts)_
+_See code: [src/commands/edit.ts](https://github.com/manuphatak/go-bag/blob/v0.1.0/src/commands/edit.ts)_
 
 ## `go-bag help [COMMAND]`
 
@@ -101,7 +100,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2
 
 ## `go-bag setup`
 
-describe the command here
+setup your go-bag
 
 ```
 USAGE
@@ -112,6 +111,6 @@ OPTIONS
   -h, --help     show CLI help
 ```
 
-_See code: [src/commands/setup.ts](https://github.com/manuphatak/go-bag/blob/v0.0.7/src/commands/setup.ts)_
+_See code: [src/commands/setup.ts](https://github.com/manuphatak/go-bag/blob/v0.1.0/src/commands/setup.ts)_
 
 <!-- commandsstop -->
